@@ -10,6 +10,13 @@ The ranges given to the users of a system are listed, by default, in */etc/subui
 
 **Subordinate** is a Python module to make easier the handling of these id files in a Python framework. The module **Subordinate** provides several tools to create and manage maps between names and ids, read id files and produce strings formatted in the good way for being directly used in a GNU/Linux environment.
 
+License
+-------
+
+Subordinate is free software: you can redistribute it and/or modify it under the terms of the `GNU General Public License`_ as published by the `Free Software Foundation`_, either version 3 of the License, or (at your option) any later version.
+
+Subordinate is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
 Getting started
 ---------------
 
@@ -104,5 +111,7 @@ The module **Subordinate** has been written for Python version 3 and the compati
 
 If you encounter any problem with this module, do not hesitate to report it in a `GitHub issue`_.
 
+.. _Free Software Foundation: https://www.fsf.org/
 .. _GitHub issue: https://github.com/Meseira/subordinate/issues
+.. _GNU General Public License: https://www.gnu.org/licenses/gpl.html
 .. _LXC: https://linuxcontainers.org/
