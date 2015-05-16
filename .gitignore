@@ -1,0 +1,16 @@
+# Setuptools folders
+/build/
+/dist/
+
+# Python compilation
+__pycache__
+
+# Python egg metadata
+/*.egg-info/
+/*.egg/
+
+# Virtualenv
+/venv-*/
+
+# Vim files
+.*.swp
