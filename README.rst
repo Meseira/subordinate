@@ -55,6 +55,7 @@ An *IdRangeSet* is a container for *IdRange* objects. Such an object has three r
 
 >>> r = user_map['my_user'][0]
 >>> print("Range: {}-{} ({} ids)".format(r.first, r.last, r.count))
+Range: 1000000-1065535 (65536 ids)
 
 An *IdRangeSet* can contain multiple *IdRange* instances and allow to manipulate them. As we saw, ranges can be added to the set but a range can also be removed from all the ranges in the set,
 
